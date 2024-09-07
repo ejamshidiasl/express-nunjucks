@@ -1,0 +1,20 @@
+{
+  "name": "express_nunjucks",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev_node": "node main.js",
+    "dev_nodemon": "nodemon main.js -e js,html,css"
+  },
+  "keywords": [
+    "express",
+    "nunjucks"
+  ],
+  "author": "Esmail Jamshidiasl",
+  "license": "MIT",
+  "description": "simple express and nunjucks template",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nunjucks": "^3.2.4"
+  }
+}
